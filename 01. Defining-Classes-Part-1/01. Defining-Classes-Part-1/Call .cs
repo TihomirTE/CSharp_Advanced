@@ -1,8 +1,9 @@
 ﻿using System;
+using _01.Defining_Classes_Part_1.Contracts;
 
 namespace _01.Defining_Classes_Part_1
 {
-    class Call
+    class Call : ICall
     {
         // fields
         private long? duration;

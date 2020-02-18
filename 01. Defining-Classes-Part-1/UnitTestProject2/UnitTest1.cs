@@ -13,6 +13,7 @@ namespace UnitTestProject2
             //Arrange
             var battery = new GSMTest();
 
+
             //Act
 
             //Assert

@@ -50,6 +50,7 @@
     <Compile Include="GSM.cs" />
     <Compile Include="GSMCallHistoryTest.cs" />
     <Compile Include="GSMTest.cs" />
+    <Compile Include="Contracts\ICall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

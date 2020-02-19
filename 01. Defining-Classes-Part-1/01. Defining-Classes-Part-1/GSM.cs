@@ -1,10 +1,11 @@
-﻿using System;
+﻿using _01.Defining_Classes_Part_1.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace _01.Defining_Classes_Part_1
 {
-    class GSM
+    public class GSM
     {
         // private fields
         private string model = null;
@@ -12,7 +13,7 @@ namespace _01.Defining_Classes_Part_1
         private decimal? price = null;
         private string manufacturer = null;
         private static readonly GSM iPhone4S = new GSM("iPhone 4S", "Apple");
-        public List<Call> callHistory = new List<Call>();
+        public List<ICall> callHistory = new List<ICall>();
         private const double pricePerMinute = 0.37;
 
         // constructors
@@ -113,11 +114,11 @@ namespace _01.Defining_Classes_Part_1
         }
 
         // Methods
-        public void AddCall (Call call)
+        public void AddCall (ICall call)
         {
             callHistory.Add(call);
         }
-        public void DeleteCall (Call call)
+        public void DeleteCall (ICall call)
         {
             callHistory.Remove(call);
         }

@@ -23,6 +23,8 @@ namespace Gsm.Tests
 
             // Assert
             Assert.AreEqual(call, gsm.callHistory[0]);
+
+
         }
     }
 }

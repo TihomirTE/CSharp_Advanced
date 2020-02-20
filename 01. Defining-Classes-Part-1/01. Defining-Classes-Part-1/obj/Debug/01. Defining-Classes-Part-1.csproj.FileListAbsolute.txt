@@ -11,3 +11,9 @@ C:\Users\Tihomir\Desktop\CSharp_Advanced\01. Defining-Classes-Part-1\01. Definin
 C:\Users\Tihomir\Desktop\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\01. Defining-Classes-Part-1.csprojAssemblyReference.cache
 C:\Users\Tihomir\Desktop\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.exe
 C:\Users\Tihomir\Desktop\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.pdb
+C:\Tisho\VisualStudio\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\bin\Debug\_01.Defining_Classes_Part_1.exe.config
+C:\Tisho\VisualStudio\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\bin\Debug\_01.Defining_Classes_Part_1.exe
+C:\Tisho\VisualStudio\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\bin\Debug\_01.Defining_Classes_Part_1.pdb
+C:\Tisho\VisualStudio\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\01. Defining-Classes-Part-1.csprojAssemblyReference.cache
+C:\Tisho\VisualStudio\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.exe
+C:\Tisho\VisualStudio\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.pdb

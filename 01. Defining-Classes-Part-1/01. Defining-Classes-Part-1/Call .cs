@@ -15,7 +15,7 @@ namespace _01.Defining_Classes_Part_1
         {
             this.Duration = duration;
             this.Time = time;
-            this.phoneNumber = phoneNumber;
+            this.PhoneNumber = phoneNumber;
         }
 
         // properties
@@ -29,6 +29,10 @@ namespace _01.Defining_Classes_Part_1
             }
             set
             {
+                if (value.Length<6)
+                {
+                    throw new ArgumentException();
+                }
                 this.phoneNumber = value;
             }
         }

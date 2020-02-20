@@ -17,6 +17,11 @@ namespace _01.Defining_Classes_Part_1
         private const double pricePerMinute = 0.37;
 
         // constructors
+
+        public GSM()
+        {
+
+        }
         public GSM(string model, string manufacturer)
         {
             this.model = model;

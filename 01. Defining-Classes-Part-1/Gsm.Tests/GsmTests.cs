@@ -24,5 +24,11 @@ namespace Gsm.Tests
             // Assert
             Assert.AreEqual(call, gsm.callHistory[0]);
         }
+
+        [TestMethod]
+        public void SomeTestToTestBranch()
+        {
+            Assert.AreEqual(true, true);
+        }
     }
 }

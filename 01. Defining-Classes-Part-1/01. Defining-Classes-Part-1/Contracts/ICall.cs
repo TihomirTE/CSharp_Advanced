@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.Defining_Classes_Part_1.Contracts
 {
-    interface ICall
+    public interface ICall
     {
         DateTime Time { get; set; }
 

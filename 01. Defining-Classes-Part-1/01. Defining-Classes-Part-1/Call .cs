@@ -3,7 +3,7 @@ using System;
 
 namespace _01.Defining_Classes_Part_1
 {
-    class Call : ICall
+    public class Call : ICall
     {
         // fields
         private long? duration;

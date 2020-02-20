@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.Defining_Classes_Part_1
 {
-    class GSMCallHistoryTest
+    public class GSMCallHistoryTest
     {
         // If you want to test GSMTest - first comment the Main method of this class
 

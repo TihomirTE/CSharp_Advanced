@@ -5,3 +5,9 @@ E:\Курсове Прогрес\CSharpBasics\TelerikAcademy\C Sharp\03. C# OOP\
 E:\Курсове Прогрес\CSharpBasics\TelerikAcademy\C Sharp\03. C# OOP\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\01. Defining-Classes-Part-1.csproj.CoreCompileInputs.cache
 E:\Курсове Прогрес\CSharpBasics\TelerikAcademy\C Sharp\03. C# OOP\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.exe
 E:\Курсове Прогрес\CSharpBasics\TelerikAcademy\C Sharp\03. C# OOP\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.pdb
+C:\Users\Stoicho\source\repos\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\bin\Debug\_01.Defining_Classes_Part_1.exe.config
+C:\Users\Stoicho\source\repos\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\bin\Debug\_01.Defining_Classes_Part_1.exe
+C:\Users\Stoicho\source\repos\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\bin\Debug\_01.Defining_Classes_Part_1.pdb
+C:\Users\Stoicho\source\repos\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\01. Defining-Classes-Part-1.csprojAssemblyReference.cache
+C:\Users\Stoicho\source\repos\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.exe
+C:\Users\Stoicho\source\repos\CSharp_Advanced\01. Defining-Classes-Part-1\01. Defining-Classes-Part-1\obj\Debug\_01.Defining_Classes_Part_1.pdb

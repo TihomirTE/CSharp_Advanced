@@ -65,5 +65,14 @@ namespace Gsm.Tests
             // Assert
             Assert.AreEqual(expectedResult.ToString(), gsmResult.ToString());
         }
+        [TestMethod]
+        public void SomeTestToTestBranch()
+        {
+            GSM gsm = new GSM("S7", "Samsung");
+            gsm.AddCall(new Call(11, DateTime.Now, "08989898989"));
+            gsm.AddCall(new Call(22, DateTime.Now, "08989898989"));
+
+            Assert.AreEqual(33, gsm.CalculateDuration());
+        }
     }
 }

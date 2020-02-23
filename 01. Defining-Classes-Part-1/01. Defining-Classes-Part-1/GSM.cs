@@ -25,13 +25,13 @@ namespace _01.Defining_Classes_Part_1
         public GSM(string model, string manufacturer)
         {
             this.model = model;
-            this.manufacturer = manufacturer;  
+            this.manufacturer = manufacturer;
         }
         public GSM(string model, string manufacturer, decimal? price)
         {
             this.model = model;
             this.manufacturer = manufacturer;
-            this.price = price;  
+            this.price = price;
         }
 
         public GSM(string model, string manufacturer, string owner, decimal? price)
@@ -39,7 +39,7 @@ namespace _01.Defining_Classes_Part_1
             this.model = model;
             this.manufacturer = manufacturer;
             this.owner = owner;
-            this.price = price;  
+            this.price = price;
         }
 
         public GSM(string model, string manufacturer, string owner, decimal? price, Battery battery)
@@ -119,15 +119,15 @@ namespace _01.Defining_Classes_Part_1
         }
 
         // Methods
-        public void AddCall (ICall call)
+        public void AddCall(ICall call)
         {
             callHistory.Add(call);
         }
-        public void DeleteCall (ICall call)
+        public void DeleteCall(ICall call)
         {
             callHistory.Remove(call);
         }
-        public void ClearHistory ()
+        public void ClearHistory()
         {
             callHistory.Clear();
         }
@@ -138,9 +138,18 @@ namespace _01.Defining_Classes_Part_1
             {
                 duration += call.Duration;
             }
-            return duration = (duration  / 60) * pricePerMinute;
-        } 
-             // ToString() Method
+            return duration = (duration / 60) * pricePerMinute;
+        }
+        public long? CalculateDuration()
+        {
+            long? duration = 0;
+            foreach (var call in callHistory)
+            {
+                duration += call.Duration;
+            }
+            return duration;
+        }
+        // ToString() Method
         public override string ToString()
         {
             StringBuilder output = new StringBuilder();

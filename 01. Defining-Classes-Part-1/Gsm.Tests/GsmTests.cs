@@ -47,6 +47,26 @@ namespace Gsm.Tests
             // Assert
             Assert.AreEqual(call.Object, gsm.Object.callHistory[0]);
         }
+        
+        [TestMethod]
+        public void AddCall_ShouldAddCorrectCallUsingMoq2()
+        {
+            // Arrange
+            Mock<ICall> call = new Mock<ICall>();
+            Mock<ICall> call2 = new Mock<ICall>();
+            // DateTime dt = DateTime.Now;
+            //call.Setup(c => c.Time).Returns(dt);
+            //call.Setup(c => c.Duration).Returns(30);
+            call.Setup(c => c.PhoneNumber).Returns("089");
+
+            var gsm = new Mock<GSM>();
+
+            // Act
+            gsm.Object.AddCall(call.Object);
+
+            // Assert
+            Assert.AreEqual(call.Object, gsm.Object.callHistory[0]);
+        }
 
         [TestMethod]
         public void CalculateTotalPrice_ShouldCallDurationOnce()

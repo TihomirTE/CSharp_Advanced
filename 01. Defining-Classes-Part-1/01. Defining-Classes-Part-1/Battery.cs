@@ -20,9 +20,11 @@ namespace _01.Defining_Classes_Part_1
         {
             this.model = model;
         }
-        public Battery(int? hoursIdle)
+        
+
+        public Battery(int? hoursTalk)
         {
-            this.hoursIde = hoursIdle;
+            this.hoursTalk = hoursTalk;
         }
         public Battery(int? hoursIdle, int?hoursTalk)
         {
